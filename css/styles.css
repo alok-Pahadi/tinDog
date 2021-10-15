@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root{
+    --main-color: #ff4c68;
+    --main-font:'Montserrat',sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+#title{
+    background-color: var(--main-color);
+    overflow: hidden;
+    height:110vh;
+}
+.title-div{
+    margin: 0 8vw;
+}
+header{
+    margin-bottom: 7vh;
+}
+nav{
+    display: flex;
+justify-content: space-between;
+font-size: 30px;
+}
+nav div{
+    padding: 1em;
+font-size: 3.5rem;
+    font-weight: bolder;
+}
+#tindog{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    margin: 1.5em;
+}
+nav ul li{
+    margin: 1em;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255,255,255,.75);
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+.top-section-div{
+display: grid;
+padding: 1em;
+grid: auto-flow dense / 40vw 40vw;
+}
+.tagline-div{
+    margin: 2em;
+}
+.tagline-div h1{
+    
+    line-height: 1.5;
+    padding-right: 1.5em;
+    font-size: 3.5em;
+    color: white;
+    font-family: var(--main-font);
+}
+.phone-div{
+    margin-top: -5.5vh;
+    padding-left: 2em;
+    width: 80%;
+    transform: rotate(25deg);
+}
+.phone-div img{
+    margin-left: -1vw;
+}
+.btn{
+    padding: .5rem 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    border: 1px solid transparent;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    overflow:visible;
+    font-weight: 400;
+    margin: 5% 3% 5% 0;
+}
+.btn-ios{
+    color: white;
+    background-color: #343a40;
+    border-color: #343a40;
+   
+}
+.btn-ios:hover{
+    color: white;
+    background-color: #23272b;
+    border-color: #23272b;
+    cursor:pointer;
+}
+.btn-android{
+    color: #f8f9fa;
+    background-color: transparent;
+    border-color: #f8f9fa;
+}
+.btn-android:hover{
+    color: #23272b;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    cursor:pointer;
+}
+#features{
+    background-color: white;
+    padding: 20vh 15vw;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#212529;
+}
+.feature-section{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-box{
+    padding: 0 3vw;
+}
+.feature-box i{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    font-size: 4em;
+}
+.feature-box h3{
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.feature-box p{
+    color: #8f8f8f;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#testimonials{
+    color: #fff;
+    background-color: #ef8172;
+    text-align: center;
+    width: 100%;
+    height:100%;
+}
+#testimonials div{
+    padding: 7% 15%;
+}
+#testimonials h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials img{
+    vertical-align: middle;
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+    vertical-align: middle;
+}
+#pricing{
+    background-color: #fff;
+    padding:100px;
+    text-align: center;
+}
+.pricing-heading{
+    margin-bottom: 35px;
+}
+.pricing-heading h2{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.pricing-heading p{
+    color: #8f8f8f;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.pricing-plans{
+    display: flex;
+    justify-content: center;
+}
+.pricing-plan{
+    width: 22vw;
+    height: auto;
+    border: 1px solid gray;
+    margin: 30px;
+}
+.card-header{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color:rgba(0,0, 0,.03);
+    border-bottom: 1px solid rgba(0,0, 0,.125);
+}
+.card-header h3{
+    font-size: 2.5rem;
+}
+.card-body{
+    font-size: 1.4rem;
+}
+.card-body h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.card-body p{
+    color: #8f8f8f;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.card-body button{
+    width: 90%;
+}
+.chihuahua button{
+    background-color: transparent;
+    color: black;
+}
+#cta{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+footer{
+    background-color: #fff;
+    padding: 5% 15%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #8f8f8f;
+}
